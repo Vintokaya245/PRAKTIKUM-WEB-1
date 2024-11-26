@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background: #ffffff ;
+    padding: 1rem;
+}
+
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #4ca0f4;
+    border: 1px solid #37517E;
+}  
+.Logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+} 
+.Halaman {
+    background-color: #37517E;
+    color: white;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+}
+.Halaman-Container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.Halaman h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.Halaman p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: rgba(255,255,255,0.8);
+}
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+}
+.btn {
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.btn-primary {
+    background: #47B2E4;
+    color: white;
+}
+.btn-secondary {
+    border: 2px solid white;
+    color: white;
+}
+.btn-primary:hover {
+    background: #209dd8;
+}
+.btn-secondary:hover {
+    background: white;
+    color: #37517E;
+}
+.bagiantengah {
+    background: #f3f5fa;
+    padding: 3rem 0;
+    text-align: center;
+}
+.bagiantengah-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.bagiantengah h2 {
+    color: #37517E;
+    margin-bottom: 1rem;
+}
+.bangiantengah p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+.bagiantengah-form {
+        display: flex;
+        justify-content: center;
+}
+.bagiantengah-form input {
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+}
+.bagiantengah-form button {
+    padding: 0.8rem 1.5rem;
+    background: #47B2E4;
+    color: white;
+    border: none;
+}
+footer {
+    background: white;
+    padding: 4rem 0 0;
+    color: #444;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.footer-section h3 { 
+    color: #37517E;
+    margin-bottom: 1rem;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section li {
+    margin-bottom: 0.5rem;
+}
+.footer-section a {
+    color: #666;
+    text-decoration: none;
+}
+.copyright {
+    margin-top: 3rem;
+    padding: 1.5rem 0; 
+    background: #37517E;
+    color: white;
+    padding-left: 4rem;  kodenya saya taruh di footer section
+}
