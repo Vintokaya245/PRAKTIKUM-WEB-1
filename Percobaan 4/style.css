@@ -28,10 +28,11 @@ span {
 }
 
 body {
-    background-image: url(abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+    background-image: url(img/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color:darkslateblue;
 }
 
 /*
